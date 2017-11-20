@@ -1,0 +1,117 @@
+15:04:31.6580 CallerMemberName：ExceptionCaught
+Message：Error converting value "DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" to type 'System.RuntimeType'. Path '', line 1, position 206.
+InnerException：Could not cast or convert from System.String to System.RuntimeType.
+Source：Newtonsoft.Json
+StackTrace：   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateISerializableItem(JToken token, Type type, JsonISerializableContract contract, JsonProperty member)
+   在 Newtonsoft.Json.Serialization.JsonFormatterConverter.Convert(Object value, Type type)
+   在 System.Runtime.Serialization.SerializationInfo.GetValue(String name, Type type)
+   在 System.RuntimeTypeHandle..ctor(SerializationInfo info, StreamingContext context)
+   在 Void .ctor(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)(Object[] )
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateISerializable(JsonReader reader, JsonISerializableContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DotNetRpc.Serializer.JsonExtension.ToObj[T](String jsonStr) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\Serializer\JsonExtension.cs:行号 44
+   在 DotNetRpc.RpcServerChannelHandle.ChannelRead(IChannelHandlerContext context, Object message) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\RpcServerChannelHandle.cs:行号 27
+   在 DotNetty.Transport.Channels.AbstractChannelHandlerContext.InvokeChannelRead(Object msg)
+
+15:07:11.7789 CallerMemberName：ExceptionCaught
+Message：Error converting value "DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" to type 'System.Type'. Path 'MethodCallInfo.ClassType', line 1, position 194.
+InnerException：Could not cast or convert from System.String to System.Type.
+Source：Newtonsoft.Json
+StackTrace：   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 DotNetRpc.Serializer.JsonExtension.ToObj[T](String jsonStr) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\Serializer\JsonExtension.cs:行号 44
+   在 DotNetRpc.RpcServerChannelHandle.ChannelRead(IChannelHandlerContext context, Object message) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\RpcServerChannelHandle.cs:行号 27
+   在 DotNetty.Transport.Channels.AbstractChannelHandlerContext.InvokeChannelRead(Object msg)
+
+15:08:40.2561 CallerMemberName：ExceptionCaught
+Message：远程主机强迫关闭了一个现有的连接。
+Source：DotNetty.Transport
+StackTrace：   在 DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   在 DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+
+15:36:08.1949 CallerMemberName：ExceptionCaught
+Message：输入流是无效的二进制格式。开始内容(以字节为单位)是: 04-00-00-01-00-00-00-FF-FF-FF-FF-01-00-00-00-00-00...
+Source：mscorlib
+StackTrace：   在 System.Runtime.Serialization.Formatters.Binary.SerializationHeaderRecord.Read(__BinaryParser input)
+   在 System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadSerializationHeaderRecord()
+   在 System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   在 DotNetRpc.Serializer.ByteSerializer.BytesToObject[T](Byte[] Bytes) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\Serializer\ByteSerializer.cs:行号 45
+   在 DotNetRpc.RpcServerChannelHandle.ChannelRead(IChannelHandlerContext context, Object message) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\RpcServerChannelHandle.cs:行号 25
+   在 DotNetty.Transport.Channels.AbstractChannelHandlerContext.InvokeChannelRead(Object msg)
+
+15:38:00.3710 CallerMemberName：ExceptionCaught
+Message：输入流是无效的二进制格式。开始内容(以字节为单位)是: 02-00-00-01-00-00-00-FF-FF-FF-FF-01-00-00-00-00-00...
+Source：mscorlib
+StackTrace：   在 System.Runtime.Serialization.Formatters.Binary.SerializationHeaderRecord.Read(__BinaryParser input)
+   在 System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadSerializationHeaderRecord()
+   在 System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   在 DotNetRpc.Serializer.ByteSerializer.BytesToObject[T](Byte[] Bytes) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\Serializer\ByteSerializer.cs:行号 45
+   在 DotNetRpc.RpcServerChannelHandle.ChannelRead(IChannelHandlerContext context, Object message) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\RpcServerChannelHandle.cs:行号 25
+   在 DotNetty.Transport.Channels.AbstractChannelHandlerContext.InvokeChannelRead(Object msg)
+
+15:46:01.7078 CallerMemberName：ExceptionCaught
+Message：未能加载文件或程序集“DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+Source：mscorlib
+StackTrace：   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   在 System.Reflection.Assembly.Load(String assemblyString)
+   在 System.UnitySerializationHolder.GetRealObject(StreamingContext context)
+   在 System.Runtime.Serialization.ObjectManager.ResolveObjectReference(ObjectHolder holder)
+   在 System.Runtime.Serialization.ObjectManager.DoFixups()
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   在 DotNetRpc.Serializer.ByteSerializer.BytesToObject[T](Byte[] Bytes) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\Serializer\ByteSerializer.cs:行号 45
+   在 DotNetRpc.RpcServerChannelHandle.ChannelRead(IChannelHandlerContext context, Object message) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\RpcServerChannelHandle.cs:行号 27
+   在 DotNetty.Transport.Channels.AbstractChannelHandlerContext.InvokeChannelRead(Object msg)
+
+16:08:39.2033 CallerMemberName：ExceptionCaught
+Message：远程主机强迫关闭了一个现有的连接。
+Source：DotNetty.Transport
+StackTrace：   在 DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   在 DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+
+17:01:13.7753 CallerMemberName：ExceptionCaught
+Message：远程主机强迫关闭了一个现有的连接。
+Source：DotNetty.Transport
+StackTrace：   在 DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   在 DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+

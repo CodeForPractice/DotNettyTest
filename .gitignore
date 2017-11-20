@@ -1,0 +1,15 @@
+/.vs
+/DotNetRpc/obj
+/DotNetRpc/bin
+/DotNetRpc.Client/obj
+/DotNetRpc.Client/bin
+/DotNetRpc.Server/obj
+/DotNetRpc.Server/bin
+/DotNetRpc.TestModel/bin
+/DotNetRpc.TestModel/obj
+/Infrastructrue/obj
+/Infrastructrue/bin
+/Rpc.Client/obj
+/Rpc.Client/bin
+/Rpc.Server/obj
+/Rpc.Server/bin

@@ -1,0 +1,79 @@
+14:03:16.0313 开始监听端口:11025
+14:03:46.1458 Receive:{"MessageId":"c48beb41ea234f1f868c27ddf1d0af07","IsNeedReply":true,"JsonContent":"How Are You?"}
+14:03:47.2235 Reply:{"MessageId":"c48beb41ea234f1f868c27ddf1d0af07","IsNeedReply":true,"JsonContent":"How Are You?"}
+14:09:38.8501 开始监听端口:11025
+15:04:17.6030 开始监听端口:11025
+15:04:29.9048 Receive:{"MessageId":"020de7bcb40f4d928be6d4832390b5b3","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"MethodName":"GetResponseMesage","ParamTypes":null,"Parameters":[]}}
+15:06:59.4452 开始监听端口:11025
+15:07:10.6081 Receive:{"MessageId":"1b0f771465a040edbde1a24c4f79a798","IsNeedReply":true,"MethodCallInfo":{"ClassType":"DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","MethodName":"GetResponseMesage","ParamTypes":null,"Parameters":[]}}
+15:08:30.9193 开始监听端口:11025
+15:08:38.8031 Receive:{"MessageId":"86f90b071760448fbde044892fd410c3","IsNeedReply":true,"MethodCallInfo":{"ClassName":"IUser","MethodName":"GetResponseMesage","Parameters":[]}}
+15:08:39.7527 Reply:{"MessageId":"86f90b071760448fbde044892fd410c3","IsNeedReply":true,"MethodCallInfo":{"ClassName":"IUser","MethodName":"GetResponseMesage","Parameters":[]}}
+15:08:39.8518 Receive:{"MessageId":"b9a911e44b824d6ba89eef263b88293b","IsNeedReply":true,"MethodCallInfo":{"ClassName":"IUser","MethodName":"GetResponseMesage","Parameters":[1]}}
+15:08:39.8928 Reply:{"MessageId":"b9a911e44b824d6ba89eef263b88293b","IsNeedReply":true,"MethodCallInfo":{"ClassName":"IUser","MethodName":"GetResponseMesage","Parameters":[1]}}
+15:11:58.0554 开始监听端口:11025
+15:12:06.6805 Receive:{"MessageId":"47624174e7f54acfb0de5057503bb0b3","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[]}}
+15:12:07.5282 Reply:{"MessageId":"47624174e7f54acfb0de5057503bb0b3","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[]}}
+15:12:07.8934 Receive:{"MessageId":"1217317909d344f996d1ec11d807e5fb","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[1]}}
+15:12:07.9264 Reply:{"MessageId":"1217317909d344f996d1ec11d807e5fb","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[1]}}
+15:12:08.0005 Receive:{"MessageId":"023be0018144408c8939e7c464e2e240","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":["2"]}}
+15:12:08.0195 Reply:{"MessageId":"023be0018144408c8939e7c464e2e240","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":["2"]}}
+15:12:08.0956 Receive:{"MessageId":"23391feee20f44b68ba3dbaf9add0600","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[1,"2"]}}
+15:12:08.1126 Reply:{"MessageId":"23391feee20f44b68ba3dbaf9add0600","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[1,"2"]}}
+15:34:52.7052 开始监听端口:11025
+15:36:03.4985 开始监听端口:11025
+15:37:55.7842 开始监听端口:11025
+15:41:50.8627 开始监听端口:11025
+15:41:56.6248 Reply:{"MessageId":"91dd99a8aae84aeab00db2985e6a8a23","IsNeedReply":false,"JsonResult":null}
+15:41:57.3763 Reply:{"MessageId":"3b0e8382711f47d2a5ff67547a756e62","IsNeedReply":false,"JsonResult":null}
+15:41:57.4344 Reply:{"MessageId":"9f5d981c2d8e408d9fa62a37f675afbd","IsNeedReply":false,"JsonResult":null}
+15:41:57.5115 Reply:{"MessageId":"c935c19a80b446ed8e28c35b712dbb7e","IsNeedReply":false,"JsonResult":null}
+15:43:18.1379 开始监听端口:11025
+15:44:15.7020 Reply:{"MessageId":"78275d5f2c4b4291a31ea9a08cf6e4dd","IsNeedReply":false,"JsonResult":null}
+15:44:48.0959 开始监听端口:11025
+15:44:54.1776 Reply:{"MessageId":"657d3f301c244f76bc60cd87c4d6cf6a","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[]}}
+15:44:55.2454 Reply:{"MessageId":"651ed8b373404252a037ddb62b963912","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[1]}}
+15:44:55.3114 Reply:{"MessageId":"f8c17068f1a144d8b8efed4583632bc0","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":["2"]}}
+15:44:55.3975 Reply:{"MessageId":"3dddab995cce4d0d91ead0cc657df255","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[1,"2"]}}
+15:45:56.2929 开始监听端口:11025
+15:48:52.9806 开始监听端口:11025
+15:48:59.5183 Reply:{"MessageId":"d451559662fe4fada7e3953ad86724d7","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":[]}}
+15:49:00.2888 Reply:{"MessageId":"ca95f1d1d86a4a4da3d544c553e2273b","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":[1]}}
+15:49:00.3519 Reply:{"MessageId":"5c0728bf2af24358a6ef489e6a167323","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":["2"]}}
+15:49:00.4199 Reply:{"MessageId":"6db401a59f2f41b2a0821a91f9a07369","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":[1,"2"]}}
+16:07:32.2500 开始监听端口:11025
+16:07:39.5472 Reply:{"MessageId":"1e311b6721554824bdaf6892d5384a14","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":[],"ArgumentTypes":[]}}
+16:07:40.3308 Reply:{"MessageId":"f2fb75fd1ebb4d118aab1e7e11ef3dfc","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":[1],"ArgumentTypes":["System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}
+16:07:40.3918 Reply:{"MessageId":"49c96ac5e42d4d879ea133ef6aab3143","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":["2"],"ArgumentTypes":["System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}
+16:07:40.4799 Reply:{"MessageId":"39f8bdde8a374e04a96481a8e4f65318","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":[1,"2"],"ArgumentTypes":["System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}
+16:08:13.7952 开始监听端口:11025
+16:08:20.1707 Reply:{"MessageId":"ae49e04c2f1040bba7713b0c83deb3fa","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":[],"ArgumentTypes":[]}}
+16:08:21.0114 Reply:{"MessageId":"c124edee4d6f469d818b4f2059a27228","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":[1],"ArgumentTypes":["System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}
+16:08:21.0764 Reply:{"MessageId":"c3628fc590624c54a9d0cb02ca1ca86a","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":["2"],"ArgumentTypes":["System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}
+16:08:21.1464 Reply:{"MessageId":"339b174ddd174ef2abd1cbd1bd965633","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"ClassName":"DotNetRpc.TestModel.IUser","MethodName":"GetResponseMesage","Parameters":[1,"2"],"ArgumentTypes":["System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"]}}
+16:09:12.9137 开始监听端口:11025
+16:09:20.8613 Reply:{"MessageId":null,"IsNeedReply":false,"JsonResult":null}
+16:09:21.7029 Reply:{"MessageId":"1","IsNeedReply":false,"JsonResult":null}
+16:09:21.7710 Reply:{"MessageId":"2","IsNeedReply":false,"JsonResult":null}
+16:09:21.8520 Reply:{"MessageId":"1","IsNeedReply":false,"JsonResult":"2"}
+16:13:14.4014 开始监听端口:11025
+16:13:21.9609 Reply:{"MessageId":null,"IsNeedReply":false,"JsonResult":null}
+16:13:22.6544 Reply:{"MessageId":"1","IsNeedReply":false,"JsonResult":null}
+16:13:22.7144 Reply:{"MessageId":"2","IsNeedReply":false,"JsonResult":null}
+16:13:22.7694 Reply:{"MessageId":"1","IsNeedReply":false,"JsonResult":"2"}
+16:14:10.1386 开始监听端口:11025
+16:14:14.9728 Reply:{"MessageId":null,"IsNeedReply":false,"JsonResult":null}
+16:14:15.4682 Reply:{"MessageId":"1","IsNeedReply":false,"JsonResult":null}
+16:14:15.5082 Reply:{"MessageId":"2","IsNeedReply":false,"JsonResult":null}
+16:14:15.5493 Reply:{"MessageId":"1","IsNeedReply":false,"JsonResult":"2"}
+16:14:57.1721 开始监听端口:11025
+16:15:04.1294 Reply:{"MessageId":null,"IsNeedReply":false,"JsonResult":null}
+16:15:04.9870 Reply:{"MessageId":"1","IsNeedReply":false,"JsonResult":null}
+16:15:05.0471 Reply:{"MessageId":"2","IsNeedReply":false,"JsonResult":null}
+16:15:05.1021 Reply:{"MessageId":"1","IsNeedReply":false,"JsonResult":"2"}
+16:17:58.1711 开始监听端口:11025
+16:19:27.6214 Reply:{"MessageId":null,"IsNeedReply":false,"JsonResult":null}
+16:19:30.6886 Reply:{"MessageId":"1","IsNeedReply":false,"JsonResult":null}
+16:19:30.7526 Reply:{"MessageId":"2","IsNeedReply":false,"JsonResult":null}
+16:19:30.8167 Reply:{"MessageId":"1","IsNeedReply":false,"JsonResult":"2"}
+17:00:43.4205 开始监听端口:11025

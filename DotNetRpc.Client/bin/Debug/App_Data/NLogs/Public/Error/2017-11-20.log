@@ -1,0 +1,22 @@
+15:04:31.8151 CallerMemberName：ExceptionCaught
+Message：远程主机强迫关闭了一个现有的连接。
+Source：DotNetty.Transport
+StackTrace：   在 DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   在 DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+
+15:07:11.9070 CallerMemberName：ExceptionCaught
+Message：远程主机强迫关闭了一个现有的连接。
+Source：DotNetty.Transport
+StackTrace：   在 DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   在 DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+
+15:08:40.1610 CallerMemberName：ExceptionCaught
+Message：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+Source：mscorlib
+StackTrace：   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 DotNetRpc.Message.RpcMessageUtil.AddCallBackMessage(String messageId, ResponseMessage responseMessage) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\Message\RpcMessageUtil.cs:行号 80
+   在 DotNetRpc.RpcClientChannelHandle.ChannelRead(IChannelHandlerContext context, Object message) 位置 E:\Project\SelfCode\CodeForPractice\DotNettyTest\DotNetRpc\RpcClientChannelHandle.cs:行号 34
+   在 DotNetty.Transport.Channels.AbstractChannelHandlerContext.InvokeChannelRead(Object msg)
+

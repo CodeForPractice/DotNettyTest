@@ -1,0 +1,135 @@
+14:03:44.6977 Send:{"MessageId":"c48beb41ea234f1f868c27ddf1d0af07","IsNeedReply":true,"JsonContent":"How Are You?"}
+14:03:47.3216 Send:{"MessageId":"c48beb41ea234f1f868c27ddf1d0af07","IsNeedReply":true,"JsonResult":"How Are You?"}
+15:04:27.6091 TypeName:IUser
+15:04:28.6349 Send:{"MessageId":"020de7bcb40f4d928be6d4832390b5b3","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"MethodName":"GetResponseMesage","ParamTypes":null,"Parameters":[]}}
+15:04:29.9008 TypeName:IUser
+15:04:29.9998 Send:{"MessageId":"2029c7dac66c4c1e9d60a906a5641f23","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"MethodName":"GetResponseMesage","ParamTypes":null,"Parameters":[1]}}
+15:04:30.1299 TypeName:IUser
+15:04:30.1629 Send:{"MessageId":"5ccf6855162e46f4b567f02a219ce9d6","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"MethodName":"GetResponseMesage","ParamTypes":null,"Parameters":["2"]}}
+15:04:30.3661 TypeName:IUser
+15:04:30.4271 Send:{"MessageId":"350e368a049944d0a07c9eebde5673bb","IsNeedReply":true,"MethodCallInfo":{"TypeHandle":{"TypeObj":"DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},"MethodName":"GetResponseMesage","ParamTypes":null,"Parameters":[1,"2"]}}
+15:07:08.3045 TypeName:IUser
+15:07:09.2562 Send:{"MessageId":"1b0f771465a040edbde1a24c4f79a798","IsNeedReply":true,"MethodCallInfo":{"ClassType":"DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","MethodName":"GetResponseMesage","ParamTypes":null,"Parameters":[]}}
+15:07:10.4940 TypeName:IUser
+15:07:10.5921 Send:{"MessageId":"283f8527ab644a53bb37e5f86ca32f1e","IsNeedReply":true,"MethodCallInfo":{"ClassType":"DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","MethodName":"GetResponseMesage","ParamTypes":null,"Parameters":[1]}}
+15:07:10.7172 TypeName:IUser
+15:07:10.7572 Send:{"MessageId":"cb454b0043cc4ef699ae324c4a4da35d","IsNeedReply":true,"MethodCallInfo":{"ClassType":"DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","MethodName":"GetResponseMesage","ParamTypes":null,"Parameters":["2"]}}
+15:07:15.7918 TypeName:IUser
+15:07:15.8078 Send:{"MessageId":"3f9890a3512e45a385357ae0cee40d80","IsNeedReply":true,"MethodCallInfo":{"ClassType":"DotNetRpc.Client.IUser, DotNetRpc.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","MethodName":"GetResponseMesage","ParamTypes":null,"Parameters":[1,"2"]}}
+15:08:36.1402 TypeName:IUser
+15:08:37.3490 Send:{"MessageId":"86f90b071760448fbde044892fd410c3","IsNeedReply":true,"MethodCallInfo":{"ClassName":"IUser","MethodName":"GetResponseMesage","Parameters":[]}}
+15:08:38.6930 TypeName:IUser
+15:08:38.8101 Send:{"MessageId":"b9a911e44b824d6ba89eef263b88293b","IsNeedReply":true,"MethodCallInfo":{"ClassName":"IUser","MethodName":"GetResponseMesage","Parameters":[1]}}
+15:08:39.8758 Receive:{"MessageId":"86f90b071760448fbde044892fd410c3","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"86f90b071760448fbde044892fd410c3\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"ClassName\":\"IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[]}}"}
+15:08:43.8527 TypeName:IUser
+15:08:43.8677 Send:{"MessageId":"f3bb993338894fbbab568b8fd9061eaa","IsNeedReply":true,"MethodCallInfo":{"ClassName":"IUser","MethodName":"GetResponseMesage","Parameters":["2"]}}
+15:12:04.2619 TypeName:IUser
+15:12:05.3376 Send:{"MessageId":"47624174e7f54acfb0de5057503bb0b3","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[]}}
+15:12:07.6322 Receive:{"MessageId":"47624174e7f54acfb0de5057503bb0b3","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"47624174e7f54acfb0de5057503bb0b3\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"ClassName\":\"DotNetRpc.Client.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[]}}"}
+15:12:07.8414 TypeName:IUser
+15:12:07.8644 Send:{"MessageId":"1217317909d344f996d1ec11d807e5fb","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[1]}}
+15:12:07.9454 Receive:{"MessageId":"1217317909d344f996d1ec11d807e5fb","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1217317909d344f996d1ec11d807e5fb\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"ClassName\":\"DotNetRpc.Client.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[1]}}"}
+15:12:07.9645 TypeName:IUser
+15:12:07.9835 Send:{"MessageId":"023be0018144408c8939e7c464e2e240","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":["2"]}}
+15:12:08.0365 Receive:{"MessageId":"023be0018144408c8939e7c464e2e240","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"023be0018144408c8939e7c464e2e240\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"ClassName\":\"DotNetRpc.Client.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[\"2\"]}}"}
+15:12:08.0606 TypeName:IUser
+15:12:08.0755 Send:{"MessageId":"23391feee20f44b68ba3dbaf9add0600","IsNeedReply":true,"MethodCallInfo":{"ClassName":"DotNetRpc.Client.IUser","MethodName":"GetResponseMesage","Parameters":[1,"2"]}}
+15:12:08.1306 Receive:{"MessageId":"23391feee20f44b68ba3dbaf9add0600","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"23391feee20f44b68ba3dbaf9add0600\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"ClassName\":\"DotNetRpc.Client.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[1,\"2\"]}}"}
+15:35:00.0570 TypeName:IUser
+15:36:06.4246 TypeName:IUser
+15:36:12.9312 TypeName:IUser
+15:37:59.0775 TypeName:IUser
+15:38:05.2440 TypeName:IUser
+15:41:54.2681 TypeName:IUser
+15:41:56.7269 Receive:{"MessageId":"91dd99a8aae84aeab00db2985e6a8a23","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"91dd99a8aae84aeab00db2985e6a8a23\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+15:41:57.3513 TypeName:IUser
+15:41:57.3954 Receive:{"MessageId":"3b0e8382711f47d2a5ff67547a756e62","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"3b0e8382711f47d2a5ff67547a756e62\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+15:41:57.4164 TypeName:IUser
+15:41:57.4524 Receive:{"MessageId":"9f5d981c2d8e408d9fa62a37f675afbd","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"9f5d981c2d8e408d9fa62a37f675afbd\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+15:41:57.4745 TypeName:IUser
+15:41:57.5284 Receive:{"MessageId":"c935c19a80b446ed8e28c35b712dbb7e","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"c935c19a80b446ed8e28c35b712dbb7e\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+15:43:43.0985 TypeName:IUser
+15:43:49.4731 TypeName:IUser
+15:43:54.4986 TypeName:IUser
+15:43:59.5288 TypeName:IUser
+15:44:51.7385 TypeName:IUser
+15:44:54.3267 Receive:{"MessageId":"657d3f301c244f76bc60cd87c4d6cf6a","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"657d3f301c244f76bc60cd87c4d6cf6a\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"ClassName\":\"DotNetRpc.Client.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[]}}"}
+15:44:55.2124 TypeName:IUser
+15:44:55.2694 Receive:{"MessageId":"651ed8b373404252a037ddb62b963912","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"651ed8b373404252a037ddb62b963912\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"ClassName\":\"DotNetRpc.Client.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[1]}}"}
+15:44:55.2894 TypeName:IUser
+15:44:55.3304 Receive:{"MessageId":"f8c17068f1a144d8b8efed4583632bc0","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"f8c17068f1a144d8b8efed4583632bc0\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"ClassName\":\"DotNetRpc.Client.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[\"2\"]}}"}
+15:44:55.3514 TypeName:IUser
+15:44:55.4195 Receive:{"MessageId":"3dddab995cce4d0d91ead0cc657df255","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"3dddab995cce4d0d91ead0cc657df255\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"ClassName\":\"DotNetRpc.Client.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[1,\"2\"]}}"}
+15:45:59.4551 TypeName:IUser
+15:46:06.0538 TypeName:IUser
+15:48:57.1666 TypeName:IUser
+15:48:59.6134 Receive:{"MessageId":"d451559662fe4fada7e3953ad86724d7","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"d451559662fe4fada7e3953ad86724d7\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[]}}"}
+15:49:00.2598 TypeName:IUser
+15:49:00.3109 Receive:{"MessageId":"ca95f1d1d86a4a4da3d544c553e2273b","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"ca95f1d1d86a4a4da3d544c553e2273b\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[1]}}"}
+15:49:00.3329 TypeName:IUser
+15:49:00.3729 Receive:{"MessageId":"5c0728bf2af24358a6ef489e6a167323","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"5c0728bf2af24358a6ef489e6a167323\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[\"2\"]}}"}
+15:49:00.3939 TypeName:IUser
+15:49:00.4459 Receive:{"MessageId":"6db401a59f2f41b2a0821a91f9a07369","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"6db401a59f2f41b2a0821a91f9a07369\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[1,\"2\"]}}"}
+16:07:37.0675 TypeName:IUser
+16:07:39.6413 Receive:{"MessageId":"1e311b6721554824bdaf6892d5384a14","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1e311b6721554824bdaf6892d5384a14\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[],\"ArgumentTypes\":[]}}"}
+16:07:40.3018 TypeName:IUser
+16:07:40.3528 Receive:{"MessageId":"f2fb75fd1ebb4d118aab1e7e11ef3dfc","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"f2fb75fd1ebb4d118aab1e7e11ef3dfc\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[1],\"ArgumentTypes\":[\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\"]}}"}
+16:07:40.3738 TypeName:IUser
+16:07:40.4158 Receive:{"MessageId":"49c96ac5e42d4d879ea133ef6aab3143","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"49c96ac5e42d4d879ea133ef6aab3143\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[\"2\"],\"ArgumentTypes\":[\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\"]}}"}
+16:07:40.4389 TypeName:IUser
+16:07:40.5029 Receive:{"MessageId":"39f8bdde8a374e04a96481a8e4f65318","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"39f8bdde8a374e04a96481a8e4f65318\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[1,\"2\"],\"ArgumentTypes\":[\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\"]}}"}
+16:08:17.6854 TypeName:IUser
+16:08:20.2638 Receive:{"MessageId":"ae49e04c2f1040bba7713b0c83deb3fa","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"ae49e04c2f1040bba7713b0c83deb3fa\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[],\"ArgumentTypes\":[]}}"}
+16:08:20.9813 TypeName:IUser
+16:08:21.0313 Receive:{"MessageId":"c124edee4d6f469d818b4f2059a27228","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"c124edee4d6f469d818b4f2059a27228\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[1],\"ArgumentTypes\":[\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\"]}}"}
+16:08:21.0524 TypeName:IUser
+16:08:21.0974 Receive:{"MessageId":"c3628fc590624c54a9d0cb02ca1ca86a","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"c3628fc590624c54a9d0cb02ca1ca86a\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[\"2\"],\"ArgumentTypes\":[\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\"]}}"}
+16:08:21.1214 TypeName:IUser
+16:08:21.1714 Receive:{"MessageId":"339b174ddd174ef2abd1cbd1bd965633","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"339b174ddd174ef2abd1cbd1bd965633\",\"IsNeedReply\":true,\"MethodCallInfo\":{\"TypeHandle\":{\"TypeObj\":\"DotNetRpc.TestModel.IUser, DotNetRpc.TestModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\"},\"ClassName\":\"DotNetRpc.TestModel.IUser\",\"MethodName\":\"GetResponseMesage\",\"Parameters\":[1,\"2\"],\"ArgumentTypes\":[\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\"]}}"}
+16:09:18.0033 TypeName:IUser
+16:09:20.9744 Receive:{"MessageId":"f3ab492d46ee4ab99a7fbfb54592d821","IsNeedReply":true,"JsonResult":"{\"MessageId\":null,\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:09:21.6759 TypeName:IUser
+16:09:21.7259 Receive:{"MessageId":"0ca1455a12134d508cbe0bf8d742b5aa","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:09:21.7450 TypeName:IUser
+16:09:21.7980 Receive:{"MessageId":"58e0a07008274fe58924d214995f1e7d","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"2\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:09:21.8311 TypeName:IUser
+16:09:21.8700 Receive:{"MessageId":"67b32f1c39fb4a7f8a931650440788a5","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1\",\"IsNeedReply\":false,\"JsonResult\":\"2\"}"}
+16:10:42.3578 TypeName:IUser
+16:12:53.8765 TypeName:IUser
+16:13:20.1916 TypeName:IUser
+16:13:22.0529 Receive:{"MessageId":"0cf8dcb16570458ab8612ef6fa1baa90","IsNeedReply":true,"JsonResult":"{\"MessageId\":null,\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:13:22.6283 TypeName:IUser
+16:13:22.6754 Receive:{"MessageId":"69461f434d0047b6b7bf9dcde4649477","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:13:22.6955 TypeName:IUser
+16:13:22.7304 Receive:{"MessageId":"76fa4dea8cf74cb79d64905dbe9a10f2","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"2\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:13:22.7514 TypeName:IUser
+16:13:22.7864 Receive:{"MessageId":"88e9bc153727428b92bd44b1e5508367","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1\",\"IsNeedReply\":false,\"JsonResult\":\"2\"}"}
+16:13:27.4127 TypeName:IUser
+16:14:13.0995 TypeName:IUser
+16:14:15.0299 Receive:{"MessageId":"041385e41ae8455a99d9f207ec591631","IsNeedReply":true,"JsonResult":"{\"MessageId\":null,\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:14:15.4492 TypeName:IUser
+16:14:15.4822 Receive:{"MessageId":"e73f9aa259dd4d20a4f0504650c90a3f","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:14:15.4962 TypeName:IUser
+16:14:15.5202 Receive:{"MessageId":"fb2fe44b955d404ca1732fdd351539a7","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"2\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:14:15.5332 TypeName:IUser
+16:14:15.5633 Receive:{"MessageId":"8a37ac89682c4c54b552a29a65863cd1","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1\",\"IsNeedReply\":false,\"JsonResult\":\"2\"}"}
+16:14:23.7013 TypeName:IUser
+16:15:01.5896 TypeName:IUser
+16:15:04.2445 Receive:{"MessageId":"3145184e321646d292a77083dc67d601","IsNeedReply":true,"JsonResult":"{\"MessageId\":null,\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:15:04.9590 TypeName:IUser
+16:15:05.0081 Receive:{"MessageId":"605ba15bcb7f437ea6cb768ccd002ca9","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:15:05.0281 TypeName:IUser
+16:15:05.0641 Receive:{"MessageId":"5df386ee1fc54ee59920a3a243a94c44","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"2\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:15:05.0821 TypeName:IUser
+16:15:05.1191 Receive:{"MessageId":"dead8a6803084781895b4e443e33b1ba","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1\",\"IsNeedReply\":false,\"JsonResult\":\"2\"}"}
+16:15:08.3725 TypeName:IUser
+16:19:13.0488 TypeName:IUser
+16:19:27.7235 Receive:{"MessageId":"f91530aeb995479683c14d35b62b8d90","IsNeedReply":true,"JsonResult":"{\"MessageId\":null,\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:19:30.6435 TypeName:IUser
+16:19:30.7116 Receive:{"MessageId":"7349400cd8714b518fb8f70aa2cf2f70","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:19:30.7316 TypeName:IUser
+16:19:30.7756 Receive:{"MessageId":"f8298b0836dc442986e302464988a431","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"2\",\"IsNeedReply\":false,\"JsonResult\":null}"}
+16:19:30.7947 TypeName:IUser
+16:19:30.8447 Receive:{"MessageId":"2f481be1d3e7417ea9d74c41ff36cf44","IsNeedReply":true,"JsonResult":"{\"MessageId\":\"1\",\"IsNeedReply\":false,\"JsonResult\":\"2\"}"}
+16:19:53.2504 TypeName:IUser
+17:00:55.1720 TypeName:IUser
