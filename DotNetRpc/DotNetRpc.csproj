@@ -120,8 +120,12 @@
     <Compile Include="SelfDisposable.cs" />
     <Compile Include="Serializer\ByteSerializer.cs" />
     <Compile Include="Serializer\JsonExtension.cs" />
+    <Compile Include="Socketing\BufferManagement\MessageUtil.cs" />
+    <Compile Include="Socketing\ClientSocket.cs" />
+    <Compile Include="Socketing\SocketUtil.cs" />
     <Compile Include="TransPort\DotNettyUtil.cs" />
     <Compile Include="Utils\EnsureUtil.cs" />
+    <Compile Include="Utils\ExceptionUtil.cs" />
     <Compile Include="Utils\LogUtil.cs" />
     <Compile Include="Utils\MethodUtil.cs" />
   </ItemGroup>
